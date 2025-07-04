@@ -1,5 +1,7 @@
 # quiz-time-assignment
 
+! OUTDATED !
+
 Usage example:
 ```
 python main.py ../downloads/"CS109 Quiz 1 Sign-Up (Sum25) (Responses).xlsx"
