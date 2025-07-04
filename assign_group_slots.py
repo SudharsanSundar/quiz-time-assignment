@@ -23,9 +23,11 @@ def load_and_process_data(file_path):
     # Excel columns C through BF correspond to indices 2 through 57
     time_slot_cols = df.columns[2:58]  # Adjust if your column range is different
     time_slots = list(time_slot_cols)
+    print('TIME SLOTS: ', len(time_slots), time_slots)
     
     # Get participant identifiers (assuming first column is name/ID)
     participants = df.iloc[:, 1].tolist()
+    print('PARTICIPANTS: ', len(participants), participants)
     
     return df, time_slots, participants
 
